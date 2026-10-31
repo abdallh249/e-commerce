@@ -10,7 +10,7 @@ JOIN Orders o ON o.idCustomer = c.id
 GROUP BY c.id, c.name
 ORDER BY NumberOfOrders DESC, c.id;
 
--- Q2 - Unordered Products
+
 SELECT
     p.id AS ProductId,
     p.name AS ProductName,
